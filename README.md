@@ -1,11 +1,43 @@
-# Cognifyz-internship-Projects
-This repository contains Python programs developed during my internship at Cognifyz Technologies.
-The tasks focus on strengthening core Python concepts, logical thinking, and problem-solving skills.
+
+# Cognifyz Internship – Python Projects
+
+This repository contains Python programs developed as part of my internship at
+Cognifyz Technologies. The projects focus on basic logic building, problem-solving,
+and core Python concepts.
+
+## 📁 Python Level 1 – Basic Programs
+- String Reversal
+- Email Validator
+- Temperature Conversion
+- Calculator
+- Palindrome Checker
+
+## ▶️ How to Run the Programs
+1. Clone the repository
+2. Navigate to the folder:
+   ```bash
+   cd python_level_1
+
+🧑‍💻 Language Used
+
+Python 3
+
+🏢 Internship
+
+Cognifyz Technologies
 
 
+ 📁Run any Python file:
 
-[Temp conversion.py](https://github.com/user-attachments/files/24615730/Temp.conversion.py)
-[Reversing the STRING.py](https://github.com/user-attachments/files/24615729/Reversing.the.STRING.py)
-[Palindrome.py](https://github.com/user-attachments/files/24615728/Palindrome.py)
-[Email validator.py](https://github.com/user-attachments/files/24615727/Email.validator.py)
-[Calculator.py](https://github.com/user-attachments/files/24615726/Calculator.py)
+python filename.py
+
+
+🏢 Internship Details
+
+Organization: Cognifyz Technologies
+
+Domain: Python Programming
+
+Level: Beginner (Level 1)
+
+
