@@ -17,22 +17,15 @@ and core Python concepts.
 2. Navigate to the folder:
    ```bash
    cd python_level_1
+   
+## 🧑‍💻 Language Used
+- Python 3
 
-🧑‍💻 Language Used
-
-Python 3
-
-🏢 Internship
-
-Cognifyz Technologies
-
-
- 📁Run any Python file:
-
+## ▶️ Run any Python file
+```bash
 python filename.py
 
-
-🏢 Internship Details
+🏢Internship Details
 
 Organization: Cognifyz Technologies
 
