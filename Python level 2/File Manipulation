@@ -14,3 +14,10 @@ print("Word occurrences in alphabetical order:")
 
 for word in sorted(word_count):
     print(word, ":", word_count[word])
+
+#sample output
+Hi this is brindha
+brindha : 1
+hi      : 1
+is      : 1
+this    : 1
