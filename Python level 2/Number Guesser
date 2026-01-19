@@ -1,1 +1,32 @@
+import random
+
+number = random.randint(low, high)
+
+low = int(input("Enter the lower limit: "))
+high = int(input("Enter the upper limit: "))
+
+print("Guess the number between", low, "and", high)
+
+while True:
+    guess = int(input("Enter your guess: "))
+
+    if guess < number:
+        print("Too low")
+    elif guess > number:
+        print("Too high")
+    else:
+        print("Congratulations! You guessed the correct number.")
+        break
+
+#sample output
+
+Enter the lower limit: 1
+Enter the upper limit: 50
+Guess the number between 1 and 50
+Enter your guess: 30
+Too high
+Enter your guess: 15
+Too low
+Enter your guess: 22
+Congratulations! You guessed the correct number.
 
