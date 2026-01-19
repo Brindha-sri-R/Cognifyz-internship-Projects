@@ -1,1 +1,25 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
+# Load dataset
+data = pd.read_csv("sales_data.csv")
+
+# Set style
+sns.set(style="whitegrid")
+
+# Line Plot
+plt.figure(figsize=(8, 5))
+sns.lineplot(x="Month", y="Sales", data=data, marker="o")
+plt.title("Monthly Sales Trend")
+plt.xlabel("Month")
+plt.ylabel("Sales")
+plt.show()
+
+# Bar Plot
+plt.figure(figsize=(8, 5))
+sns.barplot(x="Month", y="Sales", data=data)
+plt.title("Monthly Sales Comparison")
+plt.xlabel("Month")
+plt.ylabel("Sales")
+plt.show()
