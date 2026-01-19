@@ -1,18 +1,16 @@
-n = int(input("Enter the number of terms: "))
 
-a = 0
-b = 1
+word_count = {}
 
-print("Fibonacci Sequence:")
+filename = input("Enter the file name: ")
 
-for i in range(n):
-    print(a, end=" ")
-    c = a + b
-    a = b
-    b = c
+with open(filename, "r") as file:
+    for line in file:
+        words = line.split()
+        for word in words:
+            word = word.lower()
+            word_count[word] = word_count.get(word, 0) + 1
 
-#sample output
-Enter the number of terms:6
-Fibonacci Sequence:
-0 1 1 2 3 5
+print("Word occurrences in alphabetical order:")
 
+for word in sorted(word_count):
+    print(word, ":", word_count[word])
