@@ -1,1 +1,28 @@
+import requests
+from bs4 import BeautifulSoup
 
+# URL to scrape
+url = "https://quotes.toscrape.com"
+
+# Send request
+response = requests.get(url)
+
+# Parse HTML content
+soup = BeautifulSoup(response.text, "html.parser")
+
+# Find all quote blocks
+quotes = soup.find_all("div", class_="quote")
+
+# Extract data
+for quote in quotes:
+    text = quote.find("span", class_="text").text
+    author = quote.find("small", class_="author").text
+    print(f"Quote: {text}")
+    print(f"Author: {author}")
+    print("-" * 50)
+
+#sample output
+
+Quote: “The world as we have created it is a process of our thinking.”
+Author: Albert Einstein
+-----------------------------------------------
