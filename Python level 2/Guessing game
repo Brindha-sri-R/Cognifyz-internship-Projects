@@ -1,21 +1,16 @@
 import random
+number = random.randint(1, 100)
 
-low = 1
-high = 100
-
-number = random.randint(low, high)
-
-print("Number Guessing Game")
-print("Guess a number between", low, "and", high)
+print("Guess the number between 1 and 100")
 
 while True:
-    guess = int(input("Enter your guess: "))
+    guess = int(input("Enter your guess number: "))
 
     if guess < number:
         print("Too low")
     elif guess > number:
         print("Too high")
     else:
-        print("Congratulations! You guessed the correct number.")
+        print("Correct! You guessed the number.")
         break
 
