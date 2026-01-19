@@ -14,3 +14,12 @@ while True:
         print("Correct! You guessed the number.")
         break
 
+#sample output
+
+Guess the number between 1 and 100
+Enter your guess: 40
+Too high
+Enter your guess: 20
+Too low
+Enter your guess: 30
+Correct! You guessed the number.
